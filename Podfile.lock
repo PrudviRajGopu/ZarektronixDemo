@@ -1,0 +1,35 @@
+PODS:
+  - CoreDataManager (0.9.0):
+    - SwiftyJSON (~> 5.0.0)
+  - IQKeyboardManagerSwift (6.5.16)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - NVActivityIndicatorView/Extended (5.1.1):
+    - NVActivityIndicatorView/Base
+  - SideMenuSwift (2.1.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - CoreDataManager (~> 0.9.0)
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView/Extended
+  - SideMenuSwift
+  - SwiftyJSON (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - CoreDataManager
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - SideMenuSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  CoreDataManager: 241c4ecb43c8661b19d5e2376c5cd27701ee85c9
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SideMenuSwift: edf340d11fc6200f7c857a014ed60b1a995d8d0b
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: a2a88930085c20b2009ed5f7062b5369dab2b20a
+
+COCOAPODS: 1.15.0

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ProductCell" reuseIdentifier="ProductCell" id="gTV-IL-0wX" customClass="ProductCell" customModule="BagzzDemoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="309" height="243"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="309" height="243"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="teD-Yk-VbJ">
+                        <rect key="frame" x="0.0" y="0.0" width="309" height="243"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bag1" translatesAutoresizingMaskIntoConstraints="NO" id="Hyt-Qa-fD1">
+                                <rect key="frame" x="0.0" y="0.0" width="309" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="toH-Ro-edQ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCB-sc-oQq">
+                                <rect key="frame" x="284" y="10" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="TIm-8J-QYz"/>
+                                    <constraint firstAttribute="width" constant="15" id="gaZ-cW-u1p"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                <state key="normal" image="unwish"/>
+                                <connections>
+                                    <action selector="heartBtn_Axn:" destination="gTV-IL-0wX" eventType="touchUpInside" id="jeW-Ue-dW2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bag 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOt-Xl-JkE">
+                                <rect key="frame" x="0.0" y="130" width="309" height="108"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hyt-Qa-fD1" firstAttribute="leading" secondItem="teD-Yk-VbJ" secondAttribute="leading" id="JyQ-VK-XbP"/>
+                            <constraint firstItem="aOt-Xl-JkE" firstAttribute="leading" secondItem="teD-Yk-VbJ" secondAttribute="leading" id="K3g-tX-DMG"/>
+                            <constraint firstItem="QCB-sc-oQq" firstAttribute="top" secondItem="teD-Yk-VbJ" secondAttribute="top" constant="10" id="KYf-wU-H2a"/>
+                            <constraint firstItem="aOt-Xl-JkE" firstAttribute="top" secondItem="Hyt-Qa-fD1" secondAttribute="bottom" constant="10" id="Mhh-Ua-oLy"/>
+                            <constraint firstItem="Hyt-Qa-fD1" firstAttribute="top" secondItem="teD-Yk-VbJ" secondAttribute="top" id="S1S-VP-DR9"/>
+                            <constraint firstAttribute="trailing" secondItem="aOt-Xl-JkE" secondAttribute="trailing" id="ahI-7i-JHX"/>
+                            <constraint firstAttribute="trailing" secondItem="QCB-sc-oQq" secondAttribute="trailing" constant="10" id="mV8-4y-kUV"/>
+                            <constraint firstAttribute="bottom" secondItem="aOt-Xl-JkE" secondAttribute="bottom" constant="5" id="n8H-mG-QTA"/>
+                            <constraint firstAttribute="trailing" secondItem="Hyt-Qa-fD1" secondAttribute="trailing" id="oB9-Mj-heD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="teD-Yk-VbJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1g7-d8-2Zx"/>
+                <constraint firstItem="teD-Yk-VbJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2t6-o7-42g"/>
+                <constraint firstAttribute="trailing" secondItem="teD-Yk-VbJ" secondAttribute="trailing" id="EzX-ZQ-qpW"/>
+                <constraint firstAttribute="bottom" secondItem="teD-Yk-VbJ" secondAttribute="bottom" id="gw8-UC-gCV"/>
+            </constraints>
+            <size key="customSize" width="309" height="243"/>
+            <connections>
+                <outlet property="Item_ImgView" destination="Hyt-Qa-fD1" id="x8V-TZ-p3N"/>
+                <outlet property="heartBtn" destination="QCB-sc-oQq" id="UIo-DN-jAV"/>
+                <outlet property="titleLbl" destination="aOt-Xl-JkE" id="3HF-kw-9Ru"/>
+            </connections>
+            <point key="canvasLocation" x="292.36641221374043" y="58.802816901408455"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bag1" width="111" height="111"/>
+        <image name="unwish" width="16" height="13"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
