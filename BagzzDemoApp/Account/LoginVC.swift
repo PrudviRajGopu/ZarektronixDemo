@@ -29,8 +29,8 @@ class LoginVC: UIViewController {
         loginBtn.layer.cornerRadius = 10
         singUpBtn.layer.cornerRadius = 10
         
-        emailTF.text = "first@gmail.com"
-        passwordTF.text = "Abcd1234"
+//        emailTF.text = "first@gmail.com"
+//        passwordTF.text = "Abcd1234"
 
         
     }

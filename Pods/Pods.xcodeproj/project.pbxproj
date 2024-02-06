@@ -267,7 +267,7 @@
 		63213191BB23768EEE8DF9C032C2ADB3 /* CoreDataManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreDataManager-umbrella.h"; sourceTree = "<group>"; };
 		64B14AED2FF61521FFD667E8335F2776 /* SideMenuSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuSwift.debug.xcconfig; sourceTree = "<group>"; };
 		6622208F1669A192EF8E60A66607697A /* Pods-BagzzDemoApp-BagzzDemoAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BagzzDemoApp-BagzzDemoAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenuSwift; path = SideMenuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A5A6A6B38B73C09A601B97CBAC30BD /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
 		6B5DFFEFD0AD079080C10200AFCE5149 /* Pods-BagzzDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BagzzDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		6B6F589DBEC574733A82F9905EA399AA /* CoreDataManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreDataManager.debug.xcconfig; sourceTree = "<group>"; };
@@ -306,25 +306,25 @@
 		9B854B94BDECA143162167035695133B /* IQPlaceholderable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlaceholderable.swift; path = IQKeyboardManagerSwift/IQTextView/IQPlaceholderable.swift; sourceTree = "<group>"; };
 		9C438AB96AF97DC480DE4176F77472B2 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Sources/Base/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
 		9C96D52F3290F13EFD7F00001902AD67 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F3272E8CC80EF3989F6775D36C35E91 /* UIViewController+Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Container.swift"; path = "Sources/SideMenu/UIViewController+Container.swift"; sourceTree = "<group>"; };
 		9F48AD3C1DE66101B4572A236109F42A /* Pods-BagzzDemoApp-BagzzDemoAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BagzzDemoApp-BagzzDemoAppUITests"; path = Pods_BagzzDemoApp_BagzzDemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00F9A8131E3A8F872E2C47B28496102 /* Pods-BagzzDemoAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BagzzDemoAppTests"; path = Pods_BagzzDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D580473290DAFE83B58D362D662A16 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A47F516FB502CB1E6C77631A292F7F0D /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
-		A5C8AB0299F309AA1F33E4E614EBA59D /* CoreDataManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoreDataManager; path = CoreDataManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C8AB0299F309AA1F33E4E614EBA59D /* CoreDataManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BDF126E9210EEE24E5C8576330A3D8 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
 		A8605C5F9F2245DCAA728DEBE91CE91F /* CoreDataManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreDataManager.modulemap; sourceTree = "<group>"; };
-		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC94F47C27327894DEC9F36EA5B310C6 /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
 		ADD2F5DF4789CD71D7A0CC645F2B1640 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
 		AFB90FB1AEC1F05A2C163B5AFC8BFAD6 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
 		B347EA119C45B099DB19DDA14D2E7A23 /* Pods-BagzzDemoApp-BagzzDemoAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BagzzDemoApp-BagzzDemoAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B653651332346E8E2498C52EA448D93F /* Pods-BagzzDemoApp-BagzzDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BagzzDemoApp-BagzzDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B79F5BC2DA6C85E312567047188002FC /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
-		B805B08ECE652B000B87C8C7ABC21EFD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = IQKeyboardManagerSwift/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B805B08ECE652B000B87C8C7ABC21EFD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = IQKeyboardManagerSwift/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		BAAADAA1504933D9191B37CD4BB0F3C0 /* IQKeyboardManager+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Position.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Position.swift"; sourceTree = "<group>"; };
 		C0605EAD7B6D7C3DB074D5901C3AE72A /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
 		C3D73D5BFEF359667EE4BFF3B7014A0D /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
@@ -344,7 +344,7 @@
 		DD3CBBA573A4887B6D03D842FE1D4100 /* Pods-BagzzDemoAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BagzzDemoAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E0699EA5667F0B7CAFC7D3315A37C8F3 /* Pods-BagzzDemoApp-BagzzDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BagzzDemoApp-BagzzDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E21473F1656B0AC25EA38F8D6F2E7AB0 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37F47A9D3CA1AF50453D276915AD086 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
 		E45C9926F1A6A13A7FA5CA9A4A2D5BD6 /* Pods-BagzzDemoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BagzzDemoApp-umbrella.h"; sourceTree = "<group>"; };
 		E57D94DA4D6022453CFDE614C5F701CD /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
@@ -352,7 +352,7 @@
 		E7607558B529073C08030B0FF7154B5B /* Pods-BagzzDemoApp-BagzzDemoAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BagzzDemoApp-BagzzDemoAppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		E8BA4EF303D603B178835C2ADE12EAD3 /* CoreDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = Pod/Classes/CoreDataManager.swift; sourceTree = "<group>"; };
 		EAD08CC8F67BC3D9FCAC56610363DF25 /* UIView+Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Container.swift"; path = "Sources/SideMenu/UIView+Container.swift"; sourceTree = "<group>"; };
-		EAE07B9F0B8D630382832146EF09B5BB /* Pods-BagzzDemoApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BagzzDemoApp"; path = Pods_BagzzDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE07B9F0B8D630382832146EF09B5BB /* Pods_BagzzDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BagzzDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3255A9E7AA0F0EC0030CD0A8488745 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
 		EDBDD40FCA12E31771570F00A8AF2A1F /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
 		EEBEEEBD6030CC70AEE97267B39CDFA9 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
@@ -556,14 +556,14 @@
 		6648F38771DB5F1E37223F4DA04B794E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5C8AB0299F309AA1F33E4E614EBA59D /* CoreDataManager */,
-				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */,
-				A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */,
-				EAE07B9F0B8D630382832146EF09B5BB /* Pods-BagzzDemoApp */,
+				A5C8AB0299F309AA1F33E4E614EBA59D /* CoreDataManager.framework */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */,
+				EAE07B9F0B8D630382832146EF09B5BB /* Pods_BagzzDemoApp.framework */,
 				9F48AD3C1DE66101B4572A236109F42A /* Pods-BagzzDemoApp-BagzzDemoAppUITests */,
 				A00F9A8131E3A8F872E2C47B28496102 /* Pods-BagzzDemoAppTests */,
-				6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
+				6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -597,7 +597,6 @@
 				EC6CC7C8C54B6D481F32A015CBE5B13C /* Extended */,
 				DCE55823EBDD618F818FEB1DB990E348 /* Support Files */,
 			);
-			name = NVActivityIndicatorView;
 			path = NVActivityIndicatorView;
 			sourceTree = "<group>";
 		};
@@ -662,7 +661,6 @@
 				C487CBA8E8107CF29FEC2053C1AB5F68 /* Serializers.swift */,
 				4CA94850C087AED852DBDDA0B05B7B7E /* Support Files */,
 			);
-			name = CoreDataManager;
 			path = CoreDataManager;
 			sourceTree = "<group>";
 		};
@@ -697,7 +695,6 @@
 				DAFF236AA29DEF3875AFBFA41C1F23D3 /* UIViewController+SideMenu.swift */,
 				21BC7DE0297079593A601F33408B9FC0 /* Support Files */,
 			);
-			name = SideMenuSwift;
 			path = SideMenuSwift;
 			sourceTree = "<group>";
 		};
@@ -740,7 +737,6 @@
 				06810EE3C735A02A53CB03D7BFD197F8 /* Resources */,
 				2C56A5C8A70EF82CB69F38F13CFE947C /* Support Files */,
 			);
-			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -767,7 +763,6 @@
 				54CA601D0A23ADF1AA9CE9E9EE338B7B /* SwiftyJSON.swift */,
 				9665429DE2DBAE202704F66579943882 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -891,7 +886,7 @@
 			);
 			name = SideMenuSwift;
 			productName = SideMenuSwift;
-			productReference = 6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift */;
+			productReference = 6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B12E0F6F52AC5AC74875D6FC7DB664C /* CoreDataManager */ = {
@@ -910,7 +905,7 @@
 			);
 			name = CoreDataManager;
 			productName = CoreDataManager;
-			productReference = A5C8AB0299F309AA1F33E4E614EBA59D /* CoreDataManager */;
+			productReference = A5C8AB0299F309AA1F33E4E614EBA59D /* CoreDataManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */ = {
@@ -928,7 +923,7 @@
 			);
 			name = NVActivityIndicatorView;
 			productName = NVActivityIndicatorView;
-			productReference = A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */;
+			productReference = A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
@@ -946,7 +941,7 @@
 			);
 			name = IQKeyboardManagerSwift;
 			productName = IQKeyboardManagerSwift;
-			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C3F51C0AC4C3248FC61CA6C64AA4FE66 /* Pods-BagzzDemoApp */ = {
@@ -969,7 +964,7 @@
 			);
 			name = "Pods-BagzzDemoApp";
 			productName = Pods_BagzzDemoApp;
-			productReference = EAE07B9F0B8D630382832146EF09B5BB /* Pods-BagzzDemoApp */;
+			productReference = EAE07B9F0B8D630382832146EF09B5BB /* Pods_BagzzDemoApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
@@ -987,7 +982,7 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E921D4EC1A6CBA7E052DF0C89C624B5D /* Pods-BagzzDemoAppTests */ = {
