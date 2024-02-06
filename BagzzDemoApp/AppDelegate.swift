@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
         Preferrences.setInstalled(status: false)
 
-        
+        UITabBar.appearance().tintColor = .black
        
 
         print("wishListItems = \(wishListItems.count)")

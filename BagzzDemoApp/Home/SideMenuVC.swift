@@ -11,9 +11,10 @@ class SideMenuVC: UIViewController {
 
    
     
+    @IBOutlet weak var logoImgViw: UIImageView!
     @IBOutlet weak var dataTV: UITableView!
     
-    let menuList = ["Check API","Orders","Settings","Terms & Conditions"]
+    let menuList = ["API Setup","Orders","Settings","Terms & Conditions"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +23,7 @@ class SideMenuVC: UIViewController {
     
     
     func updateView() {
+        logoImgViw.layer.cornerRadius = 10
         dataTV.delegate = self
         dataTV.dataSource = self
         dataTV.estimatedRowHeight = 70
@@ -48,7 +50,7 @@ extension SideMenuVC : UITableViewDelegate,UITableViewDataSource{
             let VC = self.storyboard?.instantiateViewController(withIdentifier: "Test_VC") as! Test_VC
             self.navigationController?.pushViewController(VC, animated: true)
         } else {
-            self.view.makeToast(menuList[indexPath.row])
+            self.view.makeToast("Coming soon")
         }
     }
     

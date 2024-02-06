@@ -236,7 +236,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1063.3587786259541" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1256" y="563"/>
         </scene>
         <!--Side MenuVC-->
         <scene sceneID="0Gv-ax-UKb">
@@ -260,7 +260,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="223.66666666666666" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Edit Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dLc-Ns-ozb">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="API Setup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dLc-Ns-ozb">
                                                     <rect key="frame" x="16" y="0.0" width="199.66666666666666" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="Optima-Italic" family="Optima" pointSize="17"/>
@@ -276,7 +276,7 @@
                                     <outlet property="delegate" destination="Tpd-zf-Bcd" id="tPA-Ls-d6J"/>
                                 </connections>
                             </tableView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo2" translatesAutoresizingMaskIntoConstraints="NO" id="y9Y-HJ-EJk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zerklogo" translatesAutoresizingMaskIntoConstraints="NO" id="y9Y-HJ-EJk">
                                 <rect key="frame" x="143" y="59" width="250" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="cax-iD-Xi4"/>
@@ -297,6 +297,7 @@
                     <navigationItem key="navigationItem" id="CJH-KV-QRo"/>
                     <connections>
                         <outlet property="dataTV" destination="qNf-va-MS3" id="FiQ-Gr-UUW"/>
+                        <outlet property="logoImgViw" destination="y9Y-HJ-EJk" id="1Kb-ik-8nm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KPh-Mz-4gh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -342,14 +343,26 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Knw-3q-qZu">
-                                <rect key="frame" x="0.0" y="99" width="393" height="30"/>
+                                <rect key="frame" x="0.0" y="99" width="393" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Zerktronics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkY-wR-Yjp">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="40"/>
+                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="gt8-BC-7bj"/>
+                                    <constraint firstAttribute="bottom" secondItem="nkY-wR-Yjp" secondAttribute="bottom" id="29h-yX-iTy"/>
+                                    <constraint firstItem="nkY-wR-Yjp" firstAttribute="leading" secondItem="Knw-3q-qZu" secondAttribute="leading" id="F5b-Re-uGi"/>
+                                    <constraint firstAttribute="trailing" secondItem="nkY-wR-Yjp" secondAttribute="trailing" id="Kv9-ip-Wxz"/>
+                                    <constraint firstAttribute="height" constant="40" id="gt8-BC-7bj"/>
+                                    <constraint firstItem="nkY-wR-Yjp" firstAttribute="top" secondItem="Knw-3q-qZu" secondAttribute="top" id="wdZ-UN-Bhq"/>
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjH-Zx-oGH">
-                                <rect key="frame" x="0.0" y="129" width="393" height="1288"/>
+                                <rect key="frame" x="0.0" y="139" width="393" height="1278"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKc-Fa-BqQ">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="1160"/>
@@ -1131,7 +1144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4OB-0g-7qu" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1961.0687022900763" y="111.26760563380282"/>
+            <point key="canvasLocation" x="2265" y="507"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WJR-ee-17Q">
@@ -1503,7 +1516,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo2" width="500" height="260"/>
+        <image name="Zerklogo" width="1600" height="783"/>
         <image name="back" width="32" height="32"/>
         <image name="bag1" width="111" height="111"/>
         <image name="bagzzlogo" width="2000" height="1500"/>
