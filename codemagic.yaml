@@ -6,6 +6,6 @@ workflows:
         script: echo "Welocme to CI/CD"
     publishing:
       email:
-        recepients:
+        recipients:
           - raj.prudivi@gmail.com
   
