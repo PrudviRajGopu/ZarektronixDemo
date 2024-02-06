@@ -60,9 +60,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         }
         
-//
-//        CoreDataManager.sharedInstance.setupWithModel("CartItems")
-//        CoreDataManager.sharedInstance.setupWithModel("UserInfo")
 
 
         return true
