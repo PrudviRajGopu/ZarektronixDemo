@@ -1,0 +1,11 @@
+workflows:
+  bagzz_workflow:
+    name: Bagzz Pipeline
+    scripts:
+      - name : CI/CD started
+      script : echo "Welocme to CI/CD"
+    publishing:
+      email:
+        recepients:
+          - raj.prudivi@gmail.com
+  
