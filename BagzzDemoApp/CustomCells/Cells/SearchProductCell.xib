@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MartianBThai-SemiBold.otf">
+            <string>MartianBThai-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SearchProductCell" rowHeight="159" id="KGk-i7-Jjw" customClass="SearchProductCell" customModule="BagzzDemoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="431" height="159"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="431" height="159"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eth-Zz-JIk">
+                        <rect key="frame" x="0.0" y="5" width="431" height="149"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bag1" translatesAutoresizingMaskIntoConstraints="NO" id="Sa7-zg-uaN">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="149"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Fui-fa-3HG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="₹ 00" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOq-xL-8hX">
+                                <rect key="frame" x="170" y="99" width="29.333333333333343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="JuP-eT-DPN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="15"/>
+                                <color key="textColor" red="0.28627450980000002" green="0.31372549020000001" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BCB-9s-yJW">
+                                <rect key="frame" x="155" y="5" width="271" height="83.666666666666671"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" text="As in handbags," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5JM-Wo-aIC">
+                                        <rect key="frame" x="0.0" y="0.0" width="271" height="16.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ao-YV-vmD">
+                                        <rect key="frame" x="0.0" y="26.666666666666664" width="271" height="56.999999999999993"/>
+                                        <string key="text">Pre-order, Made to Order and DIY items will ship on the estimated date noted on the product description page. These items will ship through Premium Express once they become available.</string>
+                                        <fontDescription key="fontDescription" name="Optima-Italic" family="Optima" pointSize="12"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="x8l-RX-jCj">
+                                <rect key="frame" x="318" y="160" width="140" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQF-8R-w2K">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="30"/>
+                                        <fontDescription key="fontDescription" name="MartianBThai-SemiBold" family="Martian B Thai" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" image="minus">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" systemColor="systemOrangeColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBn-Fn-CeS">
+                                        <rect key="frame" x="50" y="0.0" width="40" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="15"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwQ-U9-CBX">
+                                        <rect key="frame" x="100" y="0.0" width="40" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="ApB-CU-jBR"/>
+                                            <constraint firstAttribute="width" constant="40" id="TX0-DO-EJR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MartianBThai-SemiBold" family="Martian B Thai" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" image="plus">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" systemColor="systemOrangeColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vOq-xL-8hX" firstAttribute="leading" secondItem="Sa7-zg-uaN" secondAttribute="trailing" constant="20" id="1fA-ly-YTr"/>
+                            <constraint firstItem="BCB-9s-yJW" firstAttribute="leading" secondItem="Sa7-zg-uaN" secondAttribute="trailing" constant="5" id="3Eh-GW-VwA"/>
+                            <constraint firstItem="Sa7-zg-uaN" firstAttribute="top" secondItem="eth-Zz-JIk" secondAttribute="top" id="90B-12-RVm"/>
+                            <constraint firstAttribute="bottom" secondItem="vOq-xL-8hX" secondAttribute="bottom" constant="10" id="BFd-rp-XA9"/>
+                            <constraint firstAttribute="bottom" secondItem="Sa7-zg-uaN" secondAttribute="bottom" id="FRs-VC-gdL"/>
+                            <constraint firstItem="BCB-9s-yJW" firstAttribute="top" secondItem="eth-Zz-JIk" secondAttribute="top" constant="5" id="I53-RV-3Wx"/>
+                            <constraint firstAttribute="trailing" secondItem="BCB-9s-yJW" secondAttribute="trailing" constant="5" id="YeG-xZ-qKv"/>
+                            <constraint firstItem="Sa7-zg-uaN" firstAttribute="leading" secondItem="eth-Zz-JIk" secondAttribute="leading" id="g40-AY-zxl"/>
+                            <constraint firstItem="BCB-9s-yJW" firstAttribute="leading" secondItem="Sa7-zg-uaN" secondAttribute="trailing" constant="5" id="tgD-Z0-Al4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="eth-Zz-JIk" secondAttribute="trailing" id="Efs-EP-7o5"/>
+                    <constraint firstItem="eth-Zz-JIk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GHn-5X-Uqt"/>
+                    <constraint firstItem="eth-Zz-JIk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Jf6-iz-UQD"/>
+                    <constraint firstAttribute="bottom" secondItem="eth-Zz-JIk" secondAttribute="bottom" constant="5" id="KEY-fr-lQD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dataView" destination="eth-Zz-JIk" id="Mg3-4h-EIo"/>
+                <outlet property="priceLbl" destination="vOq-xL-8hX" id="sGu-Om-q0U"/>
+                <outlet property="productDescrptLbl" destination="9ao-YV-vmD" id="6Z6-Ei-v8y"/>
+                <outlet property="productImgView" destination="Sa7-zg-uaN" id="2Rr-oS-9tT"/>
+                <outlet property="productTitleLbl" destination="5JM-Wo-aIC" id="90h-bM-bJS"/>
+            </connections>
+            <point key="canvasLocation" x="135" y="62"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bag1" width="111" height="111"/>
+        <image name="minus" width="30" height="26"/>
+        <image name="plus" width="31" height="26"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
